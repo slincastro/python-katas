@@ -94,3 +94,53 @@ instance/
 # Scrapy stuff:
 .scr
 
+# Flutter/Dart/Pub related
+**/doc/api/
+
+# Files and directories created by pub
+.dart_tool/
+.packages
+.pub/
+build/
+# If you're building an Android app:
+android/app/debug
+android/app/profile
+android/app/release
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/.idea
+android/app/.cxx/
+android/app/*.jks
+
+# If you're building an iOS app:
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/.dart_tool/
+ios/Flutter/App.framework/
+ios/Flutter/engine/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+
+# If you're building a web app:
+web/.dart_tool/
+web/.packages
+web/.build/
+web/.webdev/
+
+# Miscellaneous
+*.lock
+*.log
+*.DS_Store
+*.iml
+.idea/
+.vscode/
+*.swp
+
+
