@@ -3,13 +3,12 @@ from starlette.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# Configura CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Permite todas las origenes
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],  # Permite todos los métodos
-    allow_headers=["*"],  # Permite todos los headers
+    allow_methods=["*"],
+    allow_headers=["*"], 
 )
 
 @app.get("/hello")
