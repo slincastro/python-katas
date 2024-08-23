@@ -27,7 +27,7 @@ class _InputAndListViewState extends State<InputAndListView> {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            Flexible(
+            Expanded(
               child: TextField(
                 key: ValueKey("myTextField"),
                 controller: widget.controller,
